@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  nav{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 7%;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    background-image:url(images.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    color: aqua;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  #hero p{
+   color:black;
+   font-size: 24px;
+   margin-bottom: 30px
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Flights section styles */
+  #flights {
+    background-image:linear-gradient(315deg, white 10%, pink 78%);
+    padding: 40px 0;
+  }
+  
+  #flights h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Destinations section styles */
+  #destinations {
+    padding: 40px 0;
+    background-image: linear-gradient(315deg, black 10%, pink 78%);
+  }
+  #destinations img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  #destinations h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .destination {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .destination h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .destination p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Services section styles */
+  #services {
+    background-image: linear-gradient(315deg, pink 10%, green 78%); 
+    padding: 40px 0;
+    text-align: center;
+  }
+  #services h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #services ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  #services li {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+      /* Contact section styles */
+      #contact {
+        background-color: #e6e6e6;
+        padding: 50px;
+      }
+  
+      #contact h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+  
+      form input,
+      form textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+  
+      form button {
+        display: block;
+        background-color: #f39c12;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+      /* Footer styles */
+    footer {
+      background-image: linear-gradient(315deg, black 10%, gray 78%); 
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    footer p {
+      margin-bottom: 0;
+    }
+
+    /* About section styles */
+    #about {
+      background-image: linear-gradient(315deg, yellow 10%, gray 78%); 
+      padding: 50px;
+    }
+
+    #about h2 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    #about p {
+      text-align: center;
+      margin-bottom: 10px;
+    }
